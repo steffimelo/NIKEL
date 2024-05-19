@@ -147,6 +147,10 @@ function getCashOut() {
 
 }
 
+function teste(valor) {
+    alert(valor);
+}
+
 function getTotal() {
     const transactions = data.transactions;
     let total = 0;

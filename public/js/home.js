@@ -147,7 +147,7 @@ function getCashOut() {
 
 }
 
-function teste(valor) {
+function exibeAlert(valor) {
     alert(valor);
 }
 

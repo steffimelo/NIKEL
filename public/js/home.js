@@ -144,8 +144,8 @@ function getCashOut() {
         document.getElementById("cash-out-list").innerHTML = cashInHtml
 
     }    
-}
 
+}
 
 function getTotal() {
     const transactions = data.transactions;
@@ -166,3 +166,4 @@ function getTotal() {
 function saveData(data) {
     localStorage.setItem(data.login, JSON.stringify(data));
 }
+
